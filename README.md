@@ -19,6 +19,17 @@ brokenLink('http://non-existing-domain-name.com')
           });
 ```
 
+## API
+
+To determine if a link is broken, *some* of the following must be true:
+
+1. Request fails with an error.
+2. Request response status code is `404`.
+3. Response identified a redirect.
+4. Page URL matches [`options.match404Page`](#options-match404page). 
+
+Note that this is the default behavior but you can fully customize it.
+
 ## `brokenLink(url, [options])`
 
 Return: `promise` 
