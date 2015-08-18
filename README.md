@@ -26,7 +26,7 @@ To determine if a link is broken, *some* of the following must be true:
 1. Request fails with an error.
 2. Request response status code is `404`.
 3. Response identified a redirect.
-4. Page URL matches [`options.match404Page`](#options-match404page). 
+4. Page URL matches [`options.match404Page`](#optionsmatch404page). 
 
 Note that this is the default behavior but you can fully customize it.
 
@@ -59,7 +59,7 @@ Wether or not to allow redirects.
 Type: `boolean`  
 Default: `false`  
 
-Wether or not 404 pages are allowed. To tell if it's a 404 page, it will test again the request URL. See [`options.match404Page`](#options-match404page).
+Wether or not 404 pages are allowed. To tell if it's a 404 page, it will test again the request URL. See [`options.match404Page`](#optionsmatch404page).
 
 #### `options.allowSoft404`
 
