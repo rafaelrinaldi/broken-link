@@ -1,6 +1,6 @@
 {
   "name": "broken-link",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check wether or not a link is broken.",
   "main": "index.js",
   "scripts": {
