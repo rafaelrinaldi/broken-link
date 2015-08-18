@@ -1,0 +1,35 @@
+{
+  "name": "broken-link",
+  "version": "1.0.0",
+  "description": "Check wether or not a link is broken.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelrinaldi/broken-link.git"
+  },
+  "keywords": [
+    "broken",
+    "link",
+    "check",
+    "url",
+    "uri",
+    "html",
+    "markup",
+    "request",
+    "http"
+  ],
+  "author": "Rafael Rinaldi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelrinaldi/broken-link/issues"
+  },
+  "homepage": "https://github.com/rafaelrinaldi/broken-link#readme",
+  "dependencies": {
+    "object-assign": "^3.0.0",
+    "request": "^2.60.0",
+    "tape": "^4.2.0"
+  }
+}
