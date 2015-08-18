@@ -2,6 +2,7 @@
 
 var request = require('request');
 var objectAssign = require('object-assign');
+var Promise = require('pinkie-promise');
 var defaults = require('./defaults');
 var reportError = require('./report-error');
 var reportStatusCode = require('./report-status-code');
@@ -20,7 +21,7 @@ function brokenLink(url, options) {
           })
           .on('error', function(error) {
             var shouldReportError = reportError(error.code, options);
-            
+
             resolve(shouldReportError);
           });
   });

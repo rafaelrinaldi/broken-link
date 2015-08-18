@@ -29,6 +29,7 @@
   "homepage": "https://github.com/rafaelrinaldi/broken-link#readme",
   "dependencies": {
     "object-assign": "^3.0.0",
+    "pinkie-promise": "^1.0.0",
     "request": "^2.60.0",
     "tape": "^4.2.0"
   }
