@@ -9,7 +9,7 @@ var reportStatusCode = require('./report-status-code');
 var reportSoft404 = require('./report-soft-404.js');
 
 function brokenLink(url, options) {
-  options = objectAssign(defaults, options, {uri: url});
+  options = objectAssign({}, defaults, options, {uri: url});
 
   return new Promise(function(resolve, reject) {
     request(options)
