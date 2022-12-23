@@ -1,6 +1,6 @@
 {
   "name": "broken-link",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Check wether or not a link is broken.",
   "main": "index.js",
   "scripts": {
@@ -28,9 +28,9 @@
   },
   "homepage": "https://github.com/rafaelrinaldi/broken-link#readme",
   "dependencies": {
-    "object-assign": "^3.0.0",
-    "pinkie-promise": "^1.0.0",
+    "object-assign": "^4.1.1",
+    "pinkie-promise": "^2.0.1",
     "request": "^2.60.0",
-    "tape": "^4.2.0"
+    "tape": "^5.6.1"
   }
 }
